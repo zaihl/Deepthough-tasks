@@ -27,7 +27,7 @@ p {
   font-size: 14px;
 }
 
-/* -------------------------------------------------------------------------------------- */
+/* --------------------------------------header styling---------------------------------------- */
 
 .task-wrapper {
   position: relative;
@@ -101,9 +101,11 @@ p {
 .more .dot {
   width: 3px;
   height: 3px;
-  clip-path: circle(50% at center);
+  border-radius: 50%;
   background: #3683f0;
 }
+
+/* --------------------------------------hero styling---------------------------------------- */
 
 #hero {
   margin: 1.125rem auto;
@@ -149,6 +151,8 @@ p {
   background: #e9ecef;
 }
 
+/* --------------------------------------main styling---------------------------------------- */
+
 #main {
   margin: 4.6875rem auto;
   height: 1260px;
@@ -168,6 +172,8 @@ p {
   box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+/* --------------------------------------help buttons styling---------------------------------------- */
+
 #help-buttons {
   height: 297px;
   width: 85px;
@@ -175,6 +181,8 @@ p {
   right: 52px;
   bottom: 18px;
 }
+
+/* --------------------------------------notice board + technical project management styling---------------------------------------- */
 
 #notice-board {
   overflow: hidden;
@@ -245,6 +253,8 @@ p {
   font-family: "Poly", sans-serif;
   font-size: 16px;
 }
+
+/* --------------------------------------journey board styling---------------------------------------- */
 
 #journey-board {
   width: 392px;
@@ -349,6 +359,12 @@ p {
   justify-content: center;
   color: #0029ff;
   font-size: 36px;
+}
+
+/* --------------------------------------threadbuild styling---------------------------------------- */
+
+#main section {
+  overflow: hidden;
 }
 
 #threadbuild input:first-child {
@@ -520,4 +536,137 @@ p {
   margin-left: 0;
   left: 0;
   padding-left: 15px;
+}
+
+.section-description {
+  display: flex;
+  align-items: center;
+  padding-inline: 23px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0.02rem;
+  text-align: left;
+}
+
+/* --------------------------------------syp styling---------------------------------------- */
+
+#structure-your-pointers .section-content {
+  padding-inline: 31px;
+}
+
+#structure-your-pointers .section-content > div {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+#structure-your-pointers .section-content > div > label {
+  height: 33px;
+  width: 100%;
+}
+
+#structure-your-pointers .section-description {
+  height: 131px;
+}
+
+#structure-your-pointers .section-content input {
+  border: none;
+  outline: none;
+  height: 43px;
+  background: #fbfbfb;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+#structure-your-pointers .tools {
+  height: 82px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-inline: 20px;
+  margin-top: 5px;
+  background: #fbfbfb;
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+  z-index: 5;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+#structure-your-pointers .tools ul {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: #606060;
+}
+
+#structure-your-pointers .tools .icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: #606060;
+}
+
+#structure-your-pointers .tools .icons button {
+  width: 102px;
+  height: 18px;
+  color: inherit;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+#structure-your-pointers .section-content .content input {
+  height: 142px;
+  background: #fbfbfb;
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+#foursa-method .section-description {
+  height: 102px;
+}
+
+#structure-your-pointers .tools .icons .more {
+  display: flex;
+  gap: 2px;
+}
+
+#structure-your-pointers .tools .icons .more .more-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 3px;
+  background: #606060;
+}
+
+#structure-your-pointers .title {
+  height: 81px;
+}
+
+#structure-your-pointers .title,
+#structure-your-pointers .content label {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
 }
