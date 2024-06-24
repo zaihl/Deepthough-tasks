@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poly:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/ffc94cefa6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="task-wrapper">
+      <header id="header" class="header">
+        <nav id="navbar">
+          <div class="logo-container">
+            <svg
+              width="311"
+              height="49"
+              viewBox="0 0 190 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="15" cy="15" r="15" fill="#0029FF" />
+              <circle cx="8.5" cy="14.5" r="1.5" fill="white" />
+              <circle opacity="0.1" cx="9.5" cy="10.5" r="1.5" fill="white" />
+              <circle opacity="0.1" cx="9.5" cy="18.5" r="1.5" fill="white" />
+              <circle opacity="0.1" cx="21.5" cy="18.5" r="1.5" fill="white" />
+              <circle opacity="0.1" cx="21.5" cy="10.5" r="1.5" fill="white" />
+              <circle cx="12.5" cy="21.5" r="1.5" fill="white" />
+              <circle cx="18.5" cy="21.5" r="1.5" fill="white" />
+              <circle cx="22.5" cy="14.5" r="1.5" fill="white" />
+              <circle cx="15.5" cy="14.5" r="1.5" fill="white" />
+              <circle cx="18.5" cy="7.5" r="1.5" fill="white" />
+              <circle cx="12.5" cy="7.5" r="1.5" fill="white" />
+              <path d="M8.5 14.5H15.5L18.5 21.5H12.5" stroke="white" />
+              <path d="M12.5 7.5H18.5" stroke="white" />
+              <path
+                d="M45.88 8.06H41.54V22H45.88C50.46 22 53.28 19.38 53.28 15.06C53.28 10.74 50.46 8.06 45.88 8.06ZM43.36 20.5V9.54H45.88C49.52 9.54 51.42 11.66 51.42 15.06C51.42 18.46 49.52 20.5 45.88 20.5H43.36ZM63.1806 8.04H55.6806V22H63.1806V20.5H57.5006V15.7H62.5806V14.2H57.5006V9.54H63.1806V8.04ZM73.4345 8.04H65.9345V22H73.4345V20.5H67.7545V15.7H72.8345V14.2H67.7545V9.54H73.4345V8.04ZM78.0084 14.68V9.56H80.6884C82.7684 9.56 83.6484 10.52 83.6484 12.14C83.6484 13.7 82.7684 14.68 80.6884 14.68H78.0084ZM85.5084 12.14C85.5084 9.86 83.9684 8.06 80.6884 8.06H76.1884V22H78.0084V16.18H80.6884C84.1484 16.18 85.5084 14.26 85.5084 12.14Z"
+                fill="black"
+              />
+              <path
+                d="M92.0425 10.7H95.7625V22H99.1825V10.7H102.903V7.96H92.0425V10.7ZM113.359 22H116.779V7.96H113.359V13.46H108.039V7.96H104.619V22H108.039V16.22H113.359V22ZM133.068 14.94C133.068 10.72 129.888 7.76 125.888 7.76C121.908 7.76 118.668 10.72 118.668 14.94C118.668 19.16 121.908 22.14 125.888 22.14C129.868 22.14 133.068 19.16 133.068 14.94ZM122.168 14.94C122.168 12.44 123.608 10.86 125.888 10.86C128.128 10.86 129.588 12.44 129.588 14.94C129.588 17.4 128.128 19.02 125.888 19.02C123.608 19.02 122.168 17.4 122.168 14.94ZM134.91 16.34C134.91 20.22 137.45 22.14 140.71 22.14C143.95 22.14 146.67 20.22 146.67 16.34V7.96H143.25V16.36C143.25 18.02 142.39 18.98 140.77 18.98C139.15 18.98 138.33 18.02 138.33 16.36V7.96H134.91V16.34ZM155.632 7.8C151.432 7.8 148.492 10.76 148.492 14.96C148.492 19.16 151.452 22.1 155.652 22.1C159.352 22.1 161.692 19.68 162.412 17.26V14.08H154.972V16.6H159.312C158.792 18.18 157.612 19.08 155.912 19.08C153.452 19.08 151.972 17.56 151.972 14.96C151.972 12.52 153.432 10.96 155.632 10.96C156.912 10.96 157.872 11.46 158.392 12.4H162.172C161.432 9.52 158.992 7.8 155.632 7.8ZM173.046 22H176.466V7.96H173.046V13.46H167.726V7.96H164.306V22H167.726V16.22H173.046V22ZM178.175 10.7H181.895V22H185.315V10.7H189.035V7.96H178.175V10.7Z"
+                fill="#0029FF"
+              />
+            </svg>
+          </div>
+          <div class="options-container">
+            <ul class="options">
+              <li class="home">
+                <i class="fa-solid fa-house-chimney"></i>
+              </li>
+              <li class="build">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </li>
+              <li class="notification">
+                <i class="fa-solid fa-bell"></i>
+              </li>
+              <li class="profile">
+                <img src="./assets/user logo.png" alt="user logo" />
+              </li>
+              <li class="more">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div id="hero">
+        <div class="hero-title">
+          <h1>Technical Project Management</h1>
+        </div>
+        <div class="hero-content">
+          <div class="hero-content-title">
+            <h2>Explore the world of management</h2>
+          </div>
+          <div class="hero-content-description">
+            <p>
+              As a project manager, you play an important reole in leading a
+              project through initiation, planning, execution, monitoring,
+              controlling and completion. How? Do you want to manage each and
+              every step of your life?
+            </p>
+          </div>
+          <button class="submit-task-btn">Submit task</button>
+        </div>
+      </div>
+      <main id="main">
+        <section id="technical-project-management">
+          <div class="section-title">
+            <p>Technical Project Management</p>
+            <div class="info-button">
+              <div class="info-text">i</div>
+            </div>
+          </div>
+          <div class="section-description">
+            <p>
+              <span>Description:</span> Story of Alignment Scope of Agility
+              Specific Accountable Staggering Approach
+            </p>
+          </div>
+          <div class="section-content">
+            <img
+              src="./assets/youtube image.png"
+              alt="youtube-thumbnail-of-technical-project-management"
+            />
+          </div>
+        </section>
+        <section id="threadbuild">
+          <div class="section-title">
+            <p>Threadbuild</p>
+            <div class="info-button">
+              <div class="info-text">i</div>
+            </div>
+          </div>
+          <div class="section-description">
+            <p>
+              <span>Description:</span> Watch the video and threadbuild, and jot
+              out key threads while watching the video
+            </p>
+          </div>
+          <div class="section-content">
+            <input type="checkbox" name="accordian" id="expand" />
+            <label class="thread-expand" for="expand">
+              <h2><i class="fa-solid fa-angle-up"></i>Thread A</h2></label
+            >
+            <div class="thread-content">
+              <div class="thread-text-input">
+                <div class="sub-thread thread-sub">
+                  <div class="sub-wrapper">
+                    <p class="sub-heading">Sub thread 1</p>
+                    <input type="text" name="sub-text" id="sub-thread-text" />
+                    <h6 class="placeholder">Enter Text here</h6>
+                  </div>
+                </div>
+                <div class="sub-interpretation thread-sub">
+                  <div class="sub-wrapper">
+                    <p class="sub-heading">Sub interpretation 1</p>
+                    <input
+                      type="text"
+                      name="sub-text"
+                      id="sub-interpretation-text"
+                    />
+                    <h6 class="placeholder">Enter Text here</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="thread-options">
+                <div class="thread-icons">
+                  <div class="idea-icon sub-icon">
+                    <svg
+                      width="15"
+                      height="20"
+                      viewBox="0 0 15 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M4.2236 19C4.2236 19.5 4.64596 20 5.2795 20H9.50311C10.1366 20 10.559 19.5 10.559 19V18H4.2236V19ZM7.3913 0C3.27329 0 0 3.1 0 7C0 9.4 1.26708 11.5 3.1677 12.7V15C3.1677 15.5 3.59006 16 4.2236 16H10.559C11.1925 16 11.6149 15.5 11.6149 15V12.7C13.5155 11.4 14.7826 9.3 14.7826 7C14.7826 3.1 11.5093 0 7.3913 0Z"
+                        fill="#323232"
+                      />
+                    </svg>
+                  </div>
+                  <div class="chat-icon sub-icon">
+                    <svg
+                      width="22"
+                      height="20"
+                      viewBox="0 0 22 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M21.7727 2C21.7727 0.9 20.8382 0 19.6832 0H2.8832C1.7282 0 0.783203 0.9 0.783203 2V14C0.783203 15.1 1.7282 16 2.8832 16H17.5832L21.7832 20L21.7727 2ZM17.5832 12H4.9832V10H17.5832V12ZM17.5832 9H4.9832V7H17.5832V9ZM17.5832 6H4.9832V4H17.5832V6Z"
+                        fill="#323232"
+                      />
+                    </svg>
+                  </div>
+                  <div class="question-icon sub-icon">
+                    <svg
+                      width="22"
+                      height="20"
+                      viewBox="0 0 22 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.4499 0H3.11654C1.82154 0 0.783203 0.857143 0.783203 1.90476V15.2381C0.783203 16.2857 1.82154 17.1429 3.11654 17.1429H7.7832L11.2832 20L14.7832 17.1429H19.4499C20.7332 17.1429 21.7832 16.2857 21.7832 15.2381V1.90476C21.7832 0.857143 20.7332 0 19.4499 0ZM12.4499 15.2381H10.1165V13.3333H12.4499V15.2381ZM14.8649 7.85714L13.8148 8.73338C12.9748 9.42861 12.4499 10 12.4499 11.4286H10.1165V10.9524C10.1165 9.90476 10.6414 8.95242 11.4814 8.25718L12.9281 7.05718C13.3598 6.71432 13.6165 6.2381 13.6165 5.71429C13.6165 4.66667 12.5665 3.80952 11.2832 3.80952C9.99987 3.80952 8.94987 4.66667 8.94987 5.71429H6.61654C6.61654 3.60952 8.70487 1.90476 11.2832 1.90476C13.8615 1.90476 15.9499 3.60952 15.9499 5.71429C15.9499 6.55238 15.5299 7.31429 14.8649 7.85714Z"
+                        fill="#323232"
+                      />
+                    </svg>
+                  </div>
+                  <div class="grow-icon sub-icon">
+                    <svg
+                      width="20"
+                      height="18"
+                      viewBox="0 0 20 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.4044 6.867C13.236 4.356 12.1786 1.908 10.1952 0C8.19305 1.926 7.08879 4.374 6.87361 6.867C8.07115 7.479 9.17535 8.27101 10.139 9.23401C11.1026 8.28001 12.2069 7.488 13.4044 6.867ZM7.32312 9.25203C7.19214 9.16203 7.04227 9.08099 6.90193 8.99099C7.04227 9.08999 7.19214 9.16203 7.32312 9.25203ZM13.3295 9.02703C13.2078 9.10803 13.0765 9.17103 12.9549 9.26103C13.0765 9.17103 13.2078 9.10803 13.3295 9.02703ZM10.139 12.105C8.1275 9.15296 4.69393 7.2 0.783203 7.2C0.783203 11.988 3.92655 16.038 8.29571 17.541C8.88512 17.748 9.50281 17.901 10.139 18C10.7752 17.892 11.3835 17.739 11.9823 17.541C16.3515 16.038 19.4948 11.988 19.4948 7.2C15.5841 7.2 12.1505 9.15296 10.139 12.105Z"
+                        fill="#323232"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="catalog-wrapper">
+                  <button class="select-catalog">
+                    <label for="catalog">Select Categ</label>
+                    <select name="catalog" id="catalog"></select>
+                  </button>
+                  <button class="select-process">
+                    <label for="process">Select Proces</label>
+                    <select name="process" id="process"></select>
+                  </button>
+                </div>
+              </div>
+              <div class="sub-thread-btn">
+                <button>+ Sub-Thread</button>
+              </div>
+              <div class="thread-summary sub-wrapper">
+                <p class="sub-heading">Summary for thread A</p>
+                <input
+                  type="text"
+                  name="summary-text"
+                  id="summary-text"
+                />
+                <h6 class="placeholder">Enter Text here</h6>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="sturcture-your-pointers">
+          <div class="section-title">
+            <p>Structure your Pointers</p>
+            <div class="info-button">
+              <div class="info-text">i</div>
+            </div>
+          </div>
+          <div class="section-description">
+            <p>
+              <span>Description:</span> Write a 300 - 400 word article from your
+              thread . Publish your understanding and showcase your
+              understanding to the entire world
+            </p>
+          </div>
+          <div class="section-content"></div>
+        </section>
+        <section id="4sa-method">
+          <div class="section-title">
+            <p>4SA Method</p>
+            <div class="info-button">
+              <div class="info-text">i</div>
+            </div>
+          </div>
+          <div class="section-description">
+            <p><span>Description:</span> To Explore more read more</p>
+          </div>
+          <div class="section-content"></div>
+        </section>
+      </main>
+      <div id="journey-board">
+        <div class="journey-board-wrapper">
+          <input type="checkbox" name="collapse" id="collapse" />
+          <label for="collapse">
+            <i class="fa-solid fa-arrow-right"></i>
+          </label>
+          <div class="section-title">Journey Board</div>
+          <div class="journey-board-content">
+            <div class="journey-board-notification">1</div>
+            <ul>
+              <li><b>Explore the world of management</b></li>
+              <li>Technical Project Management</li>
+              <li>Threadbuild</li>
+              <li>Structure your pointers</li>
+              <li>4SA Method</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="notice-board">
+        <div class="section-title">
+          <div class="x-button">X</div>
+          <p>Notice Board</p>
+        </div>
+      </div>
+      <div id="help-buttons"></div>
+    </div>
+  </body>
+</html>
