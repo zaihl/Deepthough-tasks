@@ -27,6 +27,15 @@ p {
   font-size: 14px;
 }
 
+button,
+i,
+img,
+svg,
+.info-button,
+.tools li {
+  cursor: pointer;
+}
+
 /* --------------------------------------header styling---------------------------------------- */
 
 .task-wrapper {
@@ -54,6 +63,10 @@ p {
   margin: 0 83px;
 }
 
+.logo-container {
+  cursor: pointer;
+}
+
 .options {
   width: 224px;
   height: 37px;
@@ -71,6 +84,7 @@ p {
   width: 30px;
   height: 32px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .home,
@@ -172,16 +186,6 @@ p {
   box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* --------------------------------------help buttons styling---------------------------------------- */
-
-#help-buttons {
-  height: 297px;
-  width: 85px;
-  position: absolute;
-  right: 52px;
-  bottom: 18px;
-}
-
 /* --------------------------------------notice board + technical project management styling---------------------------------------- */
 
 #notice-board {
@@ -207,10 +211,17 @@ p {
 }
 
 #notice-board .section-title {
+  position: relative;
   height: 100%;
   width: 50px;
   writing-mode: vertical-rl;
   text-orientation: upright;
+}
+
+.x-button {
+  position: absolute;
+  top: 29px;
+  cursor: pointer;
 }
 
 .section-description {
@@ -580,6 +591,10 @@ p {
   box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
 }
 
+#structure-your-pointers .section-content .title input {
+  border-radius: 5px;
+}
+
 #structure-your-pointers .tools {
   height: 82px;
   display: flex;
@@ -669,4 +684,118 @@ p {
   letter-spacing: 0.02em;
   text-align: left;
   color: #000000;
+}
+
+/* --------------------------------------help buttons styling---------------------------------------- */
+
+#help-buttons {
+  height: 297px;
+  width: 85px;
+  position: absolute;
+  right: 52px;
+  bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#help-buttons div {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  background: #0029ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* --------------------------------------4sa styling---------------------------------------- */
+
+#foursa-method .section-content {
+  padding-inline: 23px;
+}
+
+#foursa-method .section-content > div {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#foursa-method .section-content input {
+  display: none;
+}
+
+#foursa-method .section-content label h3 {
+  width: 100%;
+  padding-left: 14px;
+  height: 43px;
+  border: 1px solid #d9d7d7;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#foursa-method .section-content .introduction h3 {
+  background: #f2f2f2;
+}
+
+#foursa-method .section-content .introduction {
+  height: 132px;
+}
+
+#foursa-method .section-content .threadA {
+  height: 313px;
+}
+
+#foursa-method .section-content .example {
+  height: 122px;
+}
+
+#foursa-method .section-content p {
+  margin-top: 16px;
+  margin-left: 34px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.span-see-more {
+  width: 71px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #5f6060;
+  position: absolute;
+  top: 109px;
+  right: 1px;
+}
+
+.threadA .span-see-more {
+  top: 146px;
+}
+
+.threadA p {
+  height: 67px;
+}
+
+#foursa-method .example {
+  margin-left: 40px;
+  margin-top: 65px;
+}
+
+#foursa-method .example p {
+  margin-left: 0;
 }
