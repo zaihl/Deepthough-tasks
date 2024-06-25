@@ -94,16 +94,41 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30px;
+  width: 32px;
   height: 32px;
   border-radius: 50%;
   cursor: pointer;
 }
 
 .home,
-.build,
-.notification {
+.build {
   background: #3683f0;
+}
+
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bell {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bell svg {
+  width: 100%;
+  height: 100%;
+}
+
+.red-ball svg {
+  position: absolute;
+  top: 7px;
+  left: 18.6px;
 }
 
 .profile {
