@@ -440,6 +440,12 @@ label {
   font-size: 20px;
 }
 
+.up-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .thread-content {
   display: flex;
   flex-direction: column;
@@ -603,12 +609,21 @@ textarea::placeholder {
 #threadbuild .thread-content {
   max-height: 580px;
   height: 580px;
-  transition: max-height 0.5s ease;
+  transition: max-height 0.5s;
   overflow: hidden;
 }
 
 #threadbuild input#expand:checked ~ .thread-content {
   max-height: 0;
+}
+
+#threadbuild input#expand ~ label .up-arrow {
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+
+#threadbuild input#expand:checked ~ label .up-arrow {
+  transform: rotate(180deg);
 }
 
 /* --------------------------------------syp styling---------------------------------------- */
@@ -856,4 +871,13 @@ textarea::placeholder {
   max-height: 75px; 
   overflow: hidden;
   transition: max-height 0.5s;
+}
+
+#foursa-method input:checked ~ label .up-arrow {
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+
+#foursa-method input:checked ~ label .up-arrow {
+  transform: rotate(180deg);
 }

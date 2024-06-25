@@ -66,8 +66,8 @@ function handleSectionType(type, assetContent) {
       const video = document.createElement("iframe");
       video.src = assetContent;
       video.referrerPolicy = "strict-origin-when-cross-origin";
-      video.width = "560";
-      video.height = "315";
+      video.width = "480";
+      video.height = "291";
       return video;
     } else {
       const video = document.createElement("video");
