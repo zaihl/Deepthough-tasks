@@ -8,7 +8,6 @@ const sectionContents = document.querySelectorAll(
   "section div.section-content"
 );
 
-const sectionWidth = sectionDescriptions[0].offsetWidth;
 
 async function fetchData(url) {
   const response = await fetch(url);
@@ -67,8 +66,8 @@ function handleSectionType(type, assetContent) {
       const video = document.createElement("iframe");
       video.src = assetContent;
       video.referrerPolicy = "strict-origin-when-cross-origin";
-      video.width = sectionWidth;
-      video.height = sectionWidth * (9 / 16);
+      video.width = "560";
+      video.height = "315";
       return video;
     } else {
       const video = document.createElement("video");
